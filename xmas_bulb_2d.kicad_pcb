@@ -1,9 +1,9 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.4)-1")
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.2)-1")
 
   (general
     (thickness 1.6)
     (drawings 23)
-    (tracks 245)
+    (tracks 246)
     (zones 0)
     (modules 30)
     (nets 15)
@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.2)
+    (last_trace_width 0.25)
     (user_trace_width 0.2)
     (trace_clearance 0.2)
     (zone_clearance 0.508)
@@ -1336,7 +1336,7 @@
   (gr_arc (start 152.4 60.96) (end 142.24 60.96) (angle -180) (layer F.SilkS) (width 0.12))
   (gr_arc (start 132.08 60.96) (end 121.92 60.96) (angle -180) (layer F.SilkS) (width 0.12))
   (gr_line (start 152.4 27.94) (end 152.4 99.06) (layer Cmts.User) (width 0.15))
-  (gr_arc (start 152.4 60.96) (end 147.320001 30.480001) (angle -341.0707116) (layer Edge.Cuts) (width 0.12))
+  (gr_arc (start 152.386889 60.957818) (end 147.30689 30.477819) (angle -341.075355) (layer Edge.Cuts) (width 0.12))
   (gr_text "WM v1.0.0\n12/14/19" (at 152.2222 82.3341) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -1344,8 +1344,8 @@
   (gr_line (start 152.4 25.4) (end 190.5 25.4) (layer Cmts.User) (width 0.15))
   (gr_line (start 152.4 104.14) (end 114.3 104.14) (layer Cmts.User) (width 0.15))
   (gr_line (start 152.4 104.14) (end 190.5 104.14) (layer Cmts.User) (width 0.15))
-  (gr_circle (center 152.4 30.48) (end 152.4 27.94) (layer Edge.Cuts) (width 0.05))
-  (gr_arc (start 152.4 30.48) (end 157.48 30.48) (angle -180) (layer Edge.Cuts) (width 0.05))
+  (gr_circle (center 152.4 30.48) (end 154.94 30.48) (layer Edge.Cuts) (width 0.05))
+  (gr_arc (start 152.38689 30.477819) (end 157.46689 30.477819) (angle -180) (layer Edge.Cuts) (width 0.05))
 
   (segment (start 162.55 82.55) (end 163.385 82.55) (width 0.2) (layer B.Cu) (net 1))
   (segment (start 159.81 85.29) (end 162.55 82.55) (width 0.2) (layer B.Cu) (net 1))
@@ -1451,6 +1451,7 @@
   (segment (start 140.5 60.0225) (end 142.403804 61.926304) (width 0.2) (layer F.Cu) (net 5))
   (segment (start 155.69184 65.06718) (end 159.77362 60.9854) (width 0.2) (layer F.Cu) (net 5))
   (segment (start 143.963678 65.06718) (end 155.69184 65.06718) (width 0.2) (layer F.Cu) (net 5))
+  (segment (start 132.08 52.4025) (end 132.9361 53.2586) (width 0.25) (layer F.Cu) (net 5))
   (segment (start 174.595 61.8975) (end 172.72 60.0225) (width 0.2) (layer B.Cu) (net 6))
   (segment (start 180.34 61.8975) (end 174.595 61.8975) (width 0.2) (layer B.Cu) (net 6))
   (segment (start 172.72 63.7725) (end 174.595 61.8975) (width 0.2) (layer B.Cu) (net 6))
